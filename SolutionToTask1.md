@@ -52,7 +52,7 @@ Add the following configuration to the file
 ~~~
 server {
     listen 80;
-    server_name localhost;
+    server_name awesomeweb;
 
     root /var/www/html/awesomeweb;
     index index.html
@@ -77,6 +77,10 @@ server {
   ~~~
   sudo systemctl reload nginx
   ~~~
+OR
+~~~
+sudo service nginx reload
+~~~
 
 ## Step 8: Update Hosts File
   ~~~
@@ -88,10 +92,9 @@ server {
    127.0.0.1 awesomeweb
    ~~~
 
-## Step 9: Access the Website: Open a browser and navigate to http://awesomeweb.
+## Step 9: Access the Website
+Open a browser and navigate to http://awesomeweb
 
-
-# Output:
 
 # Contact:
 For any questions, contact Ramananda Naik at ramhnaik@gmail.com
